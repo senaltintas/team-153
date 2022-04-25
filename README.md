@@ -1,2 +1,2 @@
 # team-153
-Bootcamp project using flutter 
+Flutter kullanılarak geliştirilen Oyun ve Uygulama Akademisi bootcamp projesi.
