@@ -48,8 +48,7 @@ Bunlarla birlikte kullanıcı yemek tercihlerini ve alerjilerini profiline girer
 
 ## Product Backlog URL
 
-Miro urli eklenecek!!
-[Miro Backlog](https://www.gooogle.com)
+https://miro.com/app/board/uXjVO2pKJO4=/?share_link_id=159117369316
 
 # SPRINT 1 
 
