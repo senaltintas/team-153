@@ -1,30 +1,52 @@
 # Codizza 
 
-Private repo for Codizza team @OyunveUygulamaAkademisi bootcamp
+Takım 153
 
-# Part 1
+# Ürün ile ilgili Bilgiler
 
-## Team Name
+## Takım Elemanları
 
-Codizza 
+-Deniz Özdemir: Scrum Master
+-Deren Bayar : Product Owner
+-Sena Altıntaş: Developer
+-Kardelen Culfa : Developer
+-Servet Kablan : Developer
 
-## Git Repo
+## Ürün İsmi 
 
-## Team Roster
+YesChef!
 
-•	Deren Bayar: Product Owner
+## Ürün Açıklaması
 
-•	Deniz Özdemir: Scrum Master
+-YesChef! yiyecek malzemelerin girilerek yemek önerilerinin alınabileceği bir telefon uygulamasıdır. YesChef ile artık insanların “Bu akşam ne yapsam?” telaşını sonlandırmayı hedefliyoruz. 
+Uygulama çalışma mantığı;
+Kullanıcı uygulama içerisinde elinde bulunun malzemeleri girer. Girilen malzemeler doğrultusunda uygulama kullanıcıya elindeki malzemelerle yapabileceği çeşitli yemek tarifleri önerir. Kullanıcı birçok tarif içerisinden beğendiklerini kendi kütüphanesine ekleyebilir ve yorumlayabilir.
+Bunlarla birlikte kullanıcı yemek tercihlerini ve alerjilerini profiline girerek bu parametreler doğrultusunda yemek önerileri alabilir. 
 
-•	Sena Altıntaş: Team Member/Developer
+## Ürün Özellikleri
 
-•	Kardelen Culfa: Team Member/Developer
+- Malzemeler baz alınarak ürün tavsiyesinde bulunma
+- Tariflerde kullanıcı yorumlarının gözükmesi
+- Trenddeki tarifler, en yeni tarifler, en beğenilenler gibi kategorilerin kullanıcıya sunulması
+- Kullancı yapan kullanıcılar için favori ürünlerin kitaplığa eklenmesi
+- Profil sayfasından sevilmeyen ve tüketilmeyen malzemelerin girilmesi.
 
-•	Servet Kablan: Team Member/Developer
+## Hedef Kitle
+
+-	Evde çalışan, evden çalışan kadın ve erkekler
+-	Üniversite öğrencileri
+-	Yemek severler
+-	Yemek yaparken dijital ortamdaki tarifleri kullananlar
+-	Bütçe sıkıntısı yaşayanlar
+-	Sağlık sıkıntısı yaşayanlar
+-	18-65 yaş arası kadın ve erkek kullanıcılar
+
+## Product Backlog URL
 
 
-## Product Name
 
-YesChef
+
+
+
 
 
