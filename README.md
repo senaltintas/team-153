@@ -19,11 +19,11 @@ Takım 153
 
 ## Ürün İsmi 
 
-YesChef!
+YesChef
 
 ## Ürün Açıklaması
 
-- YesChef! yiyecek malzemelerin girilerek yemek önerilerinin alınabileceği bir telefon uygulamasıdır. YesChef ile artık insanların “Bu akşam ne yapsam?” telaşını sonlandırmayı hedefliyoruz. 
+- YesChef yiyecek malzemelerin girilerek yemek önerilerinin alınabileceği bir telefon uygulamasıdır. YesChef ile artık insanların “Bu akşam ne yapsam?” telaşını sonlandırmayı hedefliyoruz. 
 Uygulama çalışma mantığı;
 Kullanıcı uygulama içerisinde elinde bulunun malzemeleri girer. Girilen malzemeler doğrultusunda uygulama kullanıcıya elindeki malzemelerle yapabileceği çeşitli yemek tarifleri önerir. Kullanıcı birçok tarif içerisinden beğendiklerini kendi kütüphanesine ekleyebilir ve yorumlayabilir.
 Bunlarla birlikte kullanıcı yemek tercihlerini ve alerjilerini profiline girerek bu parametreler doğrultusunda yemek önerileri alabilir. 
