@@ -12,11 +12,11 @@ Codizza
 
 ## Team Roster
 
--Deniz Özdemir: Scrum Master
--Deren Bayar : Product Owner
--Sena Altıntaş: Developer
--Kardelen Culfa : Developer
--Servet Kablan : Developer
+Deren Bayar: Product Owner
+Deniz Özdemir: Scrum Master
+Sena Altıntaş: Team Member/Developer
+Kardelen Culfa: Team Member/Developer
+Servet Kablan: Team Member/Developer
 
 ## Product Name
 
