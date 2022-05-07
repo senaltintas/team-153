@@ -59,7 +59,7 @@ Miro urli eklenecek!!
 - **Daily Scrum:** Açıklama sonrasında drive doc dosyasının linki eklenebilir!!
  [Daily Scrum Chat Link ](https://www.gooogle.com)
 
-- **Sprint Board Ekran Görüntüleri: ** 
+- **Sprint Board Ekran Görüntüleri:** 
 
 
 Drive public yapılıp görseller oraya atlıp url ordan çekilebilir.
