@@ -4,13 +4,13 @@ Private repo for Codizza team @OyunveUygulamaAkademisi bootcamp
 
 # Part 1
 
-##Team Name
+## Team Name
 
 Codizza 
 
-##Git Repo
+## Git Repo
 
-##Team Roster
+## Team Roster
 
 -Deniz Özdemir: Scrum Master
 -Deren Bayar : Product Owner
@@ -18,7 +18,7 @@ Codizza
 -Kardelen Culfa : Developer
 -Servet Kablan : Developer
 
-##Product Name
+## Product Name
 
 YesChef
 
