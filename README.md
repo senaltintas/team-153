@@ -52,16 +52,15 @@ https://miro.com/app/board/uXjVO2pKJO4=/?share_link_id=159117369316
 
 # SPRINT 1 
 
-- **Srint Notları:** 
+- **Srint Notları:** User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
 
-- **Sprint içinde tamamlanması tahmin edilen puan:**
+- **Sprint içinde tamamlanması tahmin edilen puan:** 100 Puan
 
-- **Puan Tamamlama Mantığı:**
+- **Puan Tamamlama Mantığı:** Toplamda proje boyunca tamamlanması gereken 380 puanlık backlog bulunmaktadır. 4 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
 
-- **Backlog düzeni ve Story seçimleri:** 
+- **Backlog düzeni ve Story seçimleri:** Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur.
 
-- **Daily Scrum:** Açıklama sonrasında drive doc dosyasının linki eklenebilir!!
- [Daily Scrum Chat Link ](https://www.gooogle.com)
+- **Daily Scrum:** Daily Scrumlarımızı Zoom üzerinden yapıp toplantı notlarını Whatsapp grubumuz üzerinden birbirimizle paylaşıyoruz. Zoom üzerinden yaptığımız Daily Scrumların özetleri ve yazılı konuşmalarımız word dosyası olarak Readme'de tarafımızdan paylaşılmaktadır.
 
 - **Sprint Board Ekran Görüntüleri:** 
 
