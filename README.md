@@ -52,12 +52,7 @@ https://miro.com/app/board/uXjVO2pKJO4=/?share_link_id=159117369316
 
 # SPRINT 1 
 
-- **Srint Notları:** 
-- Haftada 1 kere sprint öncesi olan pazar günlerde retrospektif toplantısı yapma kararı aldık.
-- Daily Scrumlarımızı zoom üzerinden 21.00'da yapıyoruz.
-- Takım ve ürün ismine karar verildi. UI/UX tasarımlarına başlandı ve birkaç page taslak olarak oluşturuldu.
-- Trello, Slack ve Miro etkili bir şekilde kullanıldı.
-- Database konusunda araştırmalar yapıldı, Firebase kullanma kararı alındı.
+- **Srint Notları:** Haftada 1 kere sprint öncesi olan pazar günlerde retrospektif toplantısı yapma kararı aldık, daily Scrumlarımızı zoom üzerinden 21.00'da yapıyoruz, takım ve ürün ismine karar verildi. UI/UX tasarımlarına başlandı ve birkaç page taslak olarak oluşturuldu, Trello, Slack ve Miro etkili bir şekilde kullanıldı, database konusunda araştırmalar yapıldı, Firebase kullanma kararı alındı.
 
 - **Sprint içinde tamamlanması tahmin edilen puan:** 100 Puan
 
@@ -72,7 +67,7 @@ https://miro.com/app/board/uXjVO2pKJO4=/?share_link_id=159117369316
 
 - **Ürün Durumu:** Tasarım üzerine çalışmaya başlandı, yazılıma henüz başlamadık 2. sprintte başlayacağız.
 
-- **Sprint Review:** Tasarım çalışması yaptık, 2. sprintin başlamasıyla beraber development ve tasarımı beraber götürme kararı aldık. Ekstra koyulması gereken özellikleri ve ekranları belirledik. Nice to have ve must featurelarımıza karar verdik.
+- **Sprint Review:** Tasarım çalışması yaptık, 2. sprintin başlamasıyla beraber development ve tasarımı beraber götürme kararı aldık. Ekstra koyulması gereken özellikleri ve ekranları belirledik. Nice to have ve must featurelarımıza karar verdik. Uygulama akış haritasını planladık.
 
 - **Sprint Retrospective:** 
 - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır.
