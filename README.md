@@ -52,11 +52,18 @@ https://miro.com/app/board/uXjVO2pKJO4=/?share_link_id=159117369316
 
 # SPRINT 1 
 
-- **Srint Notları:** User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
+- **Srint Notları:** 
+- Haftada 1 kere sprint öncesi olan pazar günlerde retrospektif toplantısı yapma kararı aldık.
+- 
+- Daily Scrumlarımızı zoom üzerinden 21.00'da yapıyoruz.
+- 
+- Takım ve ürün ismine karar verildi. UI/UX tasarımlarına başlandı ve birkaç page taslak olarak oluşturuldu.
+- 
+- Trello, Slack ve Miro etkili bir şekilde kullanıldı.
 
 - **Sprint içinde tamamlanması tahmin edilen puan:** 100 Puan
 
-- **Puan Tamamlama Mantığı:** Toplamda proje boyunca tamamlanması gereken 380 puanlık backlog bulunmaktadır. 4 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
+- **Puan Tamamlama Mantığı:** Toplamda proje boyunca tamamlanması gereken 400 puanlık backlog bulunmaktadır. 4 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
 
 - **Backlog düzeni ve Story seçimleri:** Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur.
 
