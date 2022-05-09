@@ -60,7 +60,7 @@ https://miro.com/app/board/uXjVO2pKJO4=/?share_link_id=159117369316
 
 - **Backlog düzeni ve Story seçimleri:** Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur.
 
-- **Daily Scrum:** Daily Scrumlarımızı Zoom üzerinden yapıp toplantı notlarını Whatsapp grubumuz üzerinden birbirimizle paylaşıyoruz. Zoom üzerinden yaptığımız Daily Scrumların özetleri ve yazılı konuşmalarımız word dosyası olarak Readme'de tarafımızdan paylaşılmaktadır.
+- **Daily Scrum:** Daily Scrumlarımızı Zoom üzerinden yapıp toplantı notlarını Whatsapp grubumuz üzerinden birbirimizle paylaşıyoruz. Zoom üzerinden yaptığımız Daily Scrumların özetleri ve yazılı konuşmalarımız word dosyası olarak Readme'de tarafımızdan paylaşılmaktadır. https://docs.google.com/document/d/1MjC2zzzFxIz6fqEhBm4Auy5WAGYb8mrbPZ1_g7tMk5k/edit?usp=sharing
 
 - **Sprint Board Ekran Görüntüleri:** 
 - https://docs.google.com/document/d/1TW5eTl2mahkkCCRqxlULGxKZIL1Cl2MrN1K9qBabNp4/edit?usp=sharing
