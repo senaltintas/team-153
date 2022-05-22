@@ -32,7 +32,11 @@ class _HesapGirisPageState extends State<LoginPage> {
             const CircleAvatar(
                 radius: 70,
                 backgroundColor: Colors.white,
-                child: Text("CODIZZA")),
+                child: Text(
+                  "CODIZZA",
+                  style: TextStyle(
+                      color: Colors.deepOrange, fontWeight: FontWeight.bold),
+                )),
             const SizedBox(height: 20),
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 20.0),
@@ -120,6 +124,7 @@ class _HesapGirisPageState extends State<LoginPage> {
                         children: [
                           const Text("Bilgilerimi hatırla"),
                           CupertinoSwitch(
+                              activeColor: Colors.deepOrange,
                               value: hatirlaBeni,
                               onChanged: (value) {
                                 setState(() {
@@ -132,9 +137,14 @@ class _HesapGirisPageState extends State<LoginPage> {
                     const SizedBox(
                       height: 10,
                     ),
-                    CupertinoButton.filled(
+                    CupertinoButton(
+                      color: Colors.deepOrange,
                       borderRadius: const BorderRadius.all(Radius.circular(20)),
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.of(context).pop();
+                        // Navigator.of(context).push(CupertinoPageRoute(
+                        //     builder: (context) => const EditProfilePage()));
+                      },
                       child: const Text(
                         "Giriş Yap",
                         style: TextStyle(color: Colors.white),

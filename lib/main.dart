@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:yes_chef/pages/mainpage.dart';
-import 'package:yes_chef/pages/hesap/loginpage.dart';
 
 void main() {
   runApp(const MyApp());
