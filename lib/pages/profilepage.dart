@@ -1,4 +1,3 @@
-import 'dart:html';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -41,7 +40,7 @@ class _ProfilePageState extends State<ProfilePage> {
                 SizedBox(
                   width: 30,
                 ),
-                Text("Servet KABLAN")
+                Text("Veli Yılmaz")
               ],
             ),
             const SizedBox(

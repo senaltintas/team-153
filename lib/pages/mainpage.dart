@@ -1,8 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:yes_chef/pages/anasayfapage.dart';
-import 'package:yes_chef/pages/editprofilepage.dart';
-import 'package:yes_chef/pages/loginpage.dart';
 import 'package:yes_chef/pages/profilepage.dart';
 
 class MainPage extends StatefulWidget {

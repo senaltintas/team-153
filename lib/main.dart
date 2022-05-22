@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
       ],
       title: 'CODIZZA',
       home: MainPage(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
