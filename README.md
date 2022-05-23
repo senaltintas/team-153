@@ -95,9 +95,9 @@ Bunlarla birlikte kullanıcı yemek tercihlerini ve alerjilerini profiline girer
 - **Sprint Review:** Logo ve tasarımları oluşturmamızla beraber front end tarafını koda dökmeye başladık. Uygulamanın iskeletini ve ona ek olarak 2 sayfayı koda döktük. Database'i bitirmek üzereyiz. Sonraki sprintte front end tarafını bitirip back end'e başlamaya karar verdik.
 
 - **Sprint Retrospective:** 
--Görev dağılımları başarıyla yapıldı.
--Coder ve designer olarak 2 grup halinde çalıştık. Fakat bir sonraki sprintte herkese kodlaması için bir page düşecek.
--Development'a ayrılan saatler artırılacak ve ekipçe front end'e göre daha az fikir sahibi olduğumuz back end üzerine araştırmalara ağırlık verilecek.
+- -Görev dağılımları başarıyla yapıldı.
+- -Coder ve designer olarak 2 grup halinde çalıştık. Fakat bir sonraki sprintte herkese kodlaması için bir page düşecek.
+- -Development'a ayrılan saatler artırılacak ve ekipçe front end'e göre daha az fikir sahibi olduğumuz back end üzerine araştırmalara ağırlık verilecek.
 
 
 
