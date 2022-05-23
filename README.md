@@ -75,7 +75,29 @@ Bunlarla birlikte kullanıcı yemek tercihlerini ve alerjilerini profiline girer
 - Database kararı tekrar gözden geçirilecektir.
 - Tasarım netleştikten sonra developmenta ayrılan saatler artırılacaktır.
 
+# SPRINT 2
+- **Srint Notları:** Logo oluşturuldu, UI/UX dizaynı ilk taslak olarak oluşturuldu. Akış şemasındaki sayfalarımız ve onboarding ekranı tasarıma döküldü, kodlama süreci başladı. 2 Sayfanın kodlaması yapıldı. Backendde kullanacağımız yemek tariflerini veritabanına eklemeye başladık.
 
+- **Sprint içinde tamamlanması tahmin edilen puan:** 100 Puan
+
+- **Puan Tamamlama Mantığı:** Toplamda proje boyunca tamamlanması gereken 400 puanlık backlog bulunmaktadır. 4 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
+
+- **Backlog düzeni ve Story seçimleri:** Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur.
+
+- **Daily Scrum:** Daily Scrumlarımızı Zoom üzerinden yapıp toplantı notlarını Whatsapp grubumuz üzerinden birbirimizle paylaşıyoruz. Zoom üzerinden yaptığımız Daily Scrumların özetleri ve yazılı konuşmalarımız word dosyası olarak Readme'de tarafımızdan paylaşılmaktadır. 
+- [Daily Scrum takım konuşmaları](https://docs.google.com/document/d/1MjC2zzzFxIz6fqEhBm4Auy5WAGYb8mrbPZ1_g7tMk5k/edit?usp=sharing)
+
+- **Sprint Board Ekran Görüntüleri:** 
+- [Sprint board ](https://docs.google.com/document/d/1TW5eTl2mahkkCCRqxlULGxKZIL1Cl2MrN1K9qBabNp4/edit?usp=sharing)
+
+- **Ürün Durumu:** https://docs.google.com/document/d/1bDmSPrGWGp41XTVYLnBpEOB2Qh47zddL48U6A7iLyAs/edit?usp=sharing
+
+- **Sprint Review:** Logo ve tasarımları oluşturmamızla beraber front end tarafını koda dökmeye başladık. Uygulamanın iskeletini ve ona ek olarak 2 sayfayı koda döktük. Database'i bitirmek üzereyiz. Sonraki sprintte front end tarafını bitirip back end'e başlamaya karar verdik.
+
+- **Sprint Retrospective:** 
+-Görev dağılımları başarıyla yapıldı.
+-Coder ve designer olarak 2 grup halinde çalıştık. Fakat bir sonraki sprintte herkese kodlaması için bir page düşecek.
+-Development'a ayrılan saatler artırılacak ve ekipçe front end'e göre daha az fikir sahibi olduğumuz back end üzerine araştırmalara ağırlık verilecek.
 
 
 
