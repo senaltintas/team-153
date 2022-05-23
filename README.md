@@ -80,7 +80,7 @@ Bunlarla birlikte kullanıcı yemek tercihlerini ve alerjilerini profiline girer
 
 - **Sprint içinde tamamlanması tahmin edilen puan:** 100 Puan
 
-- **Puan Tamamlama Mantığı:** Toplamda proje boyunca tamamlanması gereken 400 puanlık backlog bulunmaktadır. 4 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
+- **Puan Tamamlama Mantığı:** Toplamda proje boyunca tamamlanması gereken 400 puanlık backlog bulunmaktadır. 4 sprint'e bölündüğünde ikinci sprint'in 100 puan ile bitirilmesi gerektiğine karar verildi.
 
 - **Backlog düzeni ve Story seçimleri:** Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur.
 
@@ -95,7 +95,6 @@ Bunlarla birlikte kullanıcı yemek tercihlerini ve alerjilerini profiline girer
 - **Sprint Review:** Logo ve tasarımları oluşturmamızla beraber front end tarafını koda dökmeye başladık. Uygulamanın iskeletini ve ona ek olarak 2 sayfayı koda döktük. Database'i bitirmek üzereyiz. Sonraki sprintte front end tarafını bitirip back end'e başlamaya karar verdik.
 
 - **Sprint Retrospective:** 
-- 
 -Görev dağılımları başarıyla yapıldı.
 
 -Coder ve designer olarak 2 grup halinde çalıştık. Fakat bir sonraki sprintte herkese kodlaması için bir page düşecek.
