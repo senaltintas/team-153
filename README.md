@@ -96,9 +96,7 @@ Bunlarla birlikte kullanıcı yemek tercihlerini ve alerjilerini profiline girer
 
 - **Sprint Retrospective:** 
 -Görev dağılımları başarıyla yapıldı.
-
 -Coder ve designer olarak 2 grup halinde çalıştık. Fakat bir sonraki sprintte herkese kodlaması için bir page düşecek.
-
 -Development'a ayrılan saatler artırılacak ve ekipçe front end'e göre daha az fikir sahibi olduğumuz back end üzerine araştırmalara ağırlık verilecek.
 
 
