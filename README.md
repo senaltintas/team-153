@@ -127,6 +127,3 @@ Bunlarla birlikte kullanıcı yemek tercihlerini ve alerjilerini profiline girer
 - Veritabanıyla ilgili araştırmalara ağırlık verildi.
 - Toplantılarda hataların, aktif db bağlantısının sağlıklı şekilde nasıl yapılabileceğinin ve tasarımların üzerinden geçildi
 - Örnek veri tablosu excelde oluşturuldu([YesChef Örnek Veri İçeriği](https://docs.google.com/spreadsheets/d/1AfyD19a81k6R2qbV81-ltxOvA42dlHZuC56rHH9dFvc/edit?usp=sharing))
-
-
-

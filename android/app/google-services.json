@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "540386690966",
+    "project_id": "team-153-36447",
+    "storage_bucket": "team-153-36447.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540386690966:android:0d513018811cf4fd867fb7",
+        "android_client_info": {
+          "package_name": "com.codizza.yes_chef"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540386690966-ggdpkuqejfvo3hl06aq4cfervh4qf24h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZIpJdxTpLrU0RUHJzdZC3mPonUlN-ono"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "540386690966-ggdpkuqejfvo3hl06aq4cfervh4qf24h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
