@@ -102,7 +102,7 @@ Bunlarla birlikte kullanıcı yemek tercihlerini ve alerjilerini profiline girer
 
 # SPRINT 3
 
-- **Srint Notları:** Oluşturulan logonun son haline grupça karar verildi, UI/UX dizaynları görsel olarak oluşturuldu. Akış şemasındaki sayfalarımız ve onboarding ekranı tasarıma dökülmeye devam edildi geliştirmeler koda eklendi, kodlama sürecine takım olarak devam edildi. 2 Sayfanın kodlamasında değişiklikler yapıldı. Veritabanına eklenecek veri formatı excel üzerinde oluşturuldu ve yemek tarifi dataları excel dosyasında veri tabanına eklenmeye hazır şekilde dosyalandı. Ekip olarak github eğitimleri tamamlandı.
+- **Srint Notları:** Oluşturulan logonun son haline grupça karar verildi, UI/UX dizaynları görsel olarak oluşturuldu. Akış şemasındaki sayfalarımız ve onboarding ekranı tasarıma dökülmeye devam edildi geliştirmeler koda eklendi, kodlama sürecine takım olarak devam edildi. 2 Sayfanın kodlamasında değişiklikler yapıldı. Veritabanına eklenecek veri formatı excel üzerinde oluşturuldu ve yemek tarifi dataları excel dosyasında veri tabanına eklenmeye hazır şekilde dosyalandı. Ekip olarak github eğitimleri tamamlandı. Firebase bağlandı, Authentication yapıldı.
 
 - **Sprint içinde tamamlanması tahmin edilen puan:** 100 Puan
 
@@ -118,7 +118,7 @@ Bunlarla birlikte kullanıcı yemek tercihlerini ve alerjilerini profiline girer
 
 - **Ürün Durumu:** https://docs.google.com/document/d/1bDmSPrGWGp41XTVYLnBpEOB2Qh47zddL48U6A7iLyAs/edit?usp=sharing
 
-- **Sprint Review:** Logo ve tasarımları oluşturmamızla beraber front end tarafını koda dökme konusunda ilerlemeye devam ettik. Uygulamanın iskeletini ve ona ek olarak 2 sayfanın kod üzerindeki geliştirmelerini tamamladık. Sayfa tasarımları için dizaynlar tamamlandı, front-ende geçirmeye devam edildi.
+- **Sprint Review:** Logo ve tasarımları oluşturmamızla beraber front end tarafını koda dökme konusunda ilerlemeye devam ettik. Uygulamanın iskeletini ve ona ek olarak 2 sayfanın kod üzerindeki geliştirmelerini tamamladık. Sayfa tasarımları için dizaynlar tamamlandı, front-ende geçirmeye devam edildi. Süre kısıtından dolayı ygulamayu biraz basitleştirerek ürünleştirdik.
 
 - **Sprint Retrospective:** 
 - Her grup üyesine farklı görevler atandı.
