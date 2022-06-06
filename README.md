@@ -118,14 +118,14 @@ Bunlarla birlikte kullanıcı yemek tercihlerini ve alerjilerini profiline girer
 
 - **Ürün Durumu:** https://docs.google.com/document/d/1bDmSPrGWGp41XTVYLnBpEOB2Qh47zddL48U6A7iLyAs/edit?usp=sharing
 
-- **Sprint Review:** Logo ve tasarımları oluşturmamızla beraber front end tarafını koda dökmeye başladık. Uygulamanın iskeletini ve ona ek olarak 2 sayfayı koda döktük. Database'i bitirmek üzereyiz. Sonraki sprintte front end tarafını bitirip back end'e başlamaya karar verdik.
+- **Sprint Review:** Logo ve tasarımları oluşturmamızla beraber front end tarafını koda dökme konusunda ilerlemeye devam ettik. Uygulamanın iskeletini ve ona ek olarak 2 sayfanın kod üzerindeki geliştirmelerini tamamladık. Sayfa tasarımları için dizaynlar tamamlandı, front-ende geçirmeye devam edildi.
 
 - **Sprint Retrospective:** 
 - Her grup üyesine farklı görevler atandı.
 - Coder ve designer olarak 2 grup halinde çalışmaya devam edildi.
 - Development'a ayrılan saatler artırıldu ve ekipçe front end'e göre daha az fikir sahibi olduğumuz back end üzerine araştırmalara ağırlık verildi.
 - Veritabanıyla ilgili araştırmalara ağırlık verildi.
-- 
+- Toplantılarda hataların, aktif db bağlantısının sağlıklı şekilde nasıl yapılabileceğinin ve tasarımların üzerinden geçildi
 
 
 
