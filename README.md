@@ -102,7 +102,7 @@ Bunlarla birlikte kullanıcı yemek tercihlerini ve alerjilerini profiline girer
 
 # SPRINT 3
 
-- **Srint Notları:** Oluşturulan logonun son haline grupça karar verildi, UI/UX dizaynları görsel olarak oluşturuldu. Akış şemasındaki sayfalarımız ve onboarding ekranı tasarıma dökülmeye devam edildi geliştirmeler koda eklendi, kodlama sürecine takım olarak devam edildi. 2 Sayfanın kodlamasında değişiklikler yapıldı. Veritabanına eklenecek veri formatı excel üzerinde oluşturuldu ve yemek tarifi dataları excel dosyasında veri tabanına eklenmeye hazır şekilde dosyalandı.
+- **Srint Notları:** Oluşturulan logonun son haline grupça karar verildi, UI/UX dizaynları görsel olarak oluşturuldu. Akış şemasındaki sayfalarımız ve onboarding ekranı tasarıma dökülmeye devam edildi geliştirmeler koda eklendi, kodlama sürecine takım olarak devam edildi. 2 Sayfanın kodlamasında değişiklikler yapıldı. Veritabanına eklenecek veri formatı excel üzerinde oluşturuldu ve yemek tarifi dataları excel dosyasında veri tabanına eklenmeye hazır şekilde dosyalandı. Ekip olarak github eğitimleri tamamlandı.
 
 - **Sprint içinde tamamlanması tahmin edilen puan:** 100 Puan
 
