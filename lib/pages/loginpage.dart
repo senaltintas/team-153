@@ -1,176 +1,146 @@
-import 'package:flutter/cupertino.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'package:yes_chef/pages/mainpage.dart';
 import 'package:yes_chef/pages/signuppage.dart';
 
-class LoginPage extends StatefulWidget {
-  const LoginPage({Key? key}) : super(key: key);
-
-  @override
-  _HesapGirisPageState createState() => _HesapGirisPageState();
+void main() {
+  runApp(LoginPage());
 }
 
-class _HesapGirisPageState extends State<LoginPage> {
-  final TextEditingController _txtSifre = TextEditingController();
-  final TextEditingController _txtKullanici = TextEditingController();
-
-  bool gorunmezSifre = true;
-  bool hatirlaBeni = false;
+class LoginPage extends StatelessWidget {
   @override
-  void initState() {
-    super.initState();
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: LoginDemo(),
+    );
+  }
+}
+
+class LoginDemo extends StatefulWidget {
+  @override
+  _LoginDemoState createState() => _LoginDemoState();
+}
+
+
+String enteredEmail = "";
+String enteredPassword = "";
+String currentName = "";
+String currentSurname = "";
+
+class _LoginDemoState extends State<LoginDemo> {
+  final TextEditingController _userEmailController = TextEditingController();
+  final TextEditingController _userPasswordController = TextEditingController();
+
+  Future userControl() async {
+    QuerySnapshot querySnapshot = await FirebaseFirestore.instance.collection("users").get();
+    for (int i = 0; i < querySnapshot.size; i++) {
+      var a = querySnapshot.docs[i];
+      if(a["email"] == enteredEmail) {
+        if(a["password"] == enteredPassword){
+          print("giriş başarılı");
+
+          currentName = a['name'];
+          currentSurname = a['surname'];
+          Navigator.push(
+              context, MaterialPageRoute(builder: (_) => MainPage()));
+          return null;
+        }
+        else{
+          print("şifre hatalı");
+          return null;
+        }
+      } else{
+      }
+    }
+    print("böyle kullanıcı yok");
+
   }
 
   @override
   Widget build(BuildContext context) {
-    return CupertinoPageScaffold(
-        navigationBar: const CupertinoNavigationBar(
-          middle: Text("Giriş"),
-        ),
-        child: ListView(
-          children: [
-            const SizedBox(height: 20),
-            const CircleAvatar(
-                radius: 70,
-                backgroundColor: Colors.white,
-                child: Text(
-                  "CODIZZA",
-                  style: TextStyle(
-                      color: Colors.deepOrange, fontWeight: FontWeight.bold),
-                )),
-            const SizedBox(height: 20),
-            const Padding(
-              padding: EdgeInsets.symmetric(horizontal: 20.0),
-              child: Text(
-                "Uygulamayı kullanabilmek için giriş yapmalısınız!",
-                textAlign: TextAlign.justify,
-                style: TextStyle(),
+    return Scaffold(
+      backgroundColor: Colors.white,
+      appBar: AppBar(
+        title: Text("Giriş Yap"),
+        backgroundColor: Colors.redAccent,
+      ),
+      body: SingleChildScrollView(
+        child: Column(
+          children: <Widget>[
+            Padding(
+              padding: const EdgeInsets.only(top: 60.0),
+              child: Center(/*
+                child: Container(
+                    width: 200,
+                    height: 150,
+                    /*decoration: BoxDecoration(
+                        color: Colors.red,
+                        borderRadius: BorderRadius.circular(50.0)),*/
+                    child: Image.asset('asset/images/flutter-logo.png')),*/
               ),
             ),
-            const SizedBox(height: 20),
+            Padding(
+              //padding: const EdgeInsets.only(left:15.0,right: 15.0,top:0,bottom: 0),
+              padding: EdgeInsets.symmetric(horizontal: 15),
+              child: TextField(
+                decoration: InputDecoration(
+                    border: OutlineInputBorder(),
+                    labelText: 'Email',
+                    hintText: 'Geçerli mail adresi girin'),
+                controller: _userEmailController,
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.only(
+                  left: 15.0, right: 15.0, top: 15, bottom: 0),
+              //padding: EdgeInsets.symmetric(horizontal: 15),
+              child: TextField(
+
+                obscureText: true,
+                decoration: InputDecoration(
+                    border: OutlineInputBorder(),
+                    labelText: 'Password',
+                    hintText: 'Şifre girin'),
+                controller: _userPasswordController,
+              ),
+            ),
+            SizedBox(
+              height: 50,
+            ),
             Container(
-              decoration: const BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.all(Radius.circular(15))),
-              margin: const EdgeInsets.symmetric(horizontal: 10),
-              width: MediaQuery.of(context).size.width,
-              child: Padding(
-                padding: const EdgeInsets.all(20.0),
-                child: Column(
-                  children: [
-                    CupertinoTextField(
-                      style: const TextStyle(color: Colors.black),
-                      controller: _txtKullanici,
-                      keyboardType: TextInputType.emailAddress,
-                      placeholderStyle: const TextStyle(color: Colors.grey),
-                      placeholder: "Kullanıcı Adı",
-                      padding: const EdgeInsets.all(10),
-                      decoration: BoxDecoration(
-                        color: Colors.grey.shade200,
-                        borderRadius: BorderRadius.circular(15),
-                      ),
-                      suffix: const SizedBox(
-                        height: 60,
-                      ),
-                      prefix: const Padding(
-                          padding: EdgeInsets.all(8.0),
-                          child: Icon(
-                            Icons.person,
-                            color: Colors.grey,
-                            size: 30,
-                          )),
-                    ),
-                    const SizedBox(
-                      height: 20,
-                    ),
-                    CupertinoTextField(
-                      style: const TextStyle(color: Colors.black),
-                      controller: _txtSifre,
-                      obscureText: gorunmezSifre,
-                      placeholderStyle: const TextStyle(color: Colors.grey),
-                      placeholder: "Şifre",
-                      padding: const EdgeInsets.all(10),
-                      decoration: BoxDecoration(
-                        color: Colors.grey.shade200,
-                        borderRadius: BorderRadius.circular(15),
-                      ),
-                      suffix: CupertinoButton(
-                          child: Icon(
-                            gorunmezSifre
-                                ? Icons.visibility
-                                : Icons.visibility_off,
-                            color: Colors.grey,
-                            size: 30,
-                          ),
-                          onPressed: () {
-                            setState(() {
-                              gorunmezSifre = !gorunmezSifre;
-                            });
-                          }),
-                      prefix: const Padding(
-                          padding: EdgeInsets.all(8.0),
-                          child: Icon(
-                            Icons.password,
-                            color: Colors.grey,
-                            size: 30,
-                          )),
-                    ),
-                    const SizedBox(
-                      height: 10,
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          const Text("Bilgilerimi hatırla"),
-                          CupertinoSwitch(
-                              activeColor: Colors.deepOrange,
-                              value: hatirlaBeni,
-                              onChanged: (value) {
-                                setState(() {
-                                  hatirlaBeni = value;
-                                });
-                              }),
-                        ],
-                      ),
-                    ),
-                    const SizedBox(
-                      height: 10,
-                    ),
-                    CupertinoButton(
-                      color: Colors.deepOrange,
-                      borderRadius: const BorderRadius.all(Radius.circular(20)),
-                      onPressed: () {
-                        Navigator.of(context).pop();
-                        // Navigator.of(context).push(CupertinoPageRoute(
-                        //     builder: (context) => const EditProfilePage()));
-                      },
-                      child: const Text(
-                        "Giriş Yap",
-                        style: TextStyle(color: Colors.white),
-                      ),
-                    ),
-                    CupertinoButton(
-                        child: Text(
-                          "Kaydol",
-                          style: TextStyle(color: Colors.grey.shade700),
-                        ),
-                        onPressed: () {
-                          Navigator.of(context).push(CupertinoPageRoute(
-                              builder: (context) => const SignUpPage()));
-                        }),
-                    CupertinoButton(
-                        child: Text(
-                          "Şifremi unuttum",
-                          style: TextStyle(color: Colors.grey.shade700),
-                        ),
-                        onPressed: () {}),
-                  ],
+              height: 50,
+              width: 250,
+              decoration: BoxDecoration(
+                  color: Colors.redAccent, borderRadius: BorderRadius.circular(20)),
+              child: FlatButton(
+                onPressed: () {
+
+
+
+                  enteredPassword = _userPasswordController.text;
+                  enteredEmail = _userEmailController.text;
+                  userControl();
+                },
+                child: Text(
+                  'Giriş Yap',
+                  style: TextStyle(color: Colors.white, fontSize: 25),
                 ),
               ),
             ),
-            const SizedBox(height: 10),
+            SizedBox(
+              height: 130,
+            ),
+            GestureDetector(
+              child: Text('Yeni hesap oluştur.'),
+              onTap: (){
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => SignUpPage()));
+              },
+            )
           ],
-        ));
+        ),
+      ),
+    );
   }
 }

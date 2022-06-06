@@ -15,18 +15,14 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     return CupertinoTabScaffold(
       tabBar: CupertinoTabBar(items: const [
-        BottomNavigationBarItem(icon: Icon(Icons.home), label: "Anasayfa"),
-        BottomNavigationBarItem(icon: Icon(Icons.food_bank), label: "Tarifler"),
-        BottomNavigationBarItem(icon: Icon(Icons.search), label: "Ne Yapsam?"),
-        BottomNavigationBarItem(icon: Icon(Icons.favorite), label: "Favoriler"),
-        BottomNavigationBarItem(icon: Icon(Icons.account_box), label: "Profiil")
+        BottomNavigationBarItem(icon: Icon(Icons.home,color: Colors.redAccent,), label: "Anasayfa"),
+        BottomNavigationBarItem(icon: Icon(Icons.account_box,color: Colors.redAccent), label: "Profil")
       ]),
       tabBuilder: (BuildContext context, int index) {
         switch (index) {
           case 0:
             return AnasayfaPage();
-
-          case 4:
+          case 1:
             return ProfilePage();
           default:
             return AnasayfaPage();

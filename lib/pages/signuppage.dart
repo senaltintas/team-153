@@ -1,169 +1,167 @@
-import 'package:flutter/cupertino.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+
 import 'package:flutter/material.dart';
+import 'package:yes_chef/pages/loginpage.dart';
 
-class SignUpPage extends StatefulWidget {
-  const SignUpPage({Key? key}) : super(key: key);
-
-  @override
-  _SignUpPageState createState() => _SignUpPageState();
+void main() {
+  runApp(SignUpPage());
 }
 
-class _SignUpPageState extends State<SignUpPage> {
-  TextEditingController _txtSifre = new TextEditingController();
-  TextEditingController _txtSifre2 = new TextEditingController();
+class SignUpPage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: SignUpDemo(),
+    );
+  }
+}
 
-  TextEditingController _txtKullanici = new TextEditingController();
+class SignUpDemo extends StatefulWidget {
+  @override
+  _SignUpDemoState createState() => _SignUpDemoState();
 
-  bool gorunmezSifre = true;
+
+}
+
+
+
+class _SignUpDemoState extends State<SignUpDemo> {
+
+  final TextEditingController _userEmailController = TextEditingController();
+  final TextEditingController _userPasswordController = TextEditingController();
+  final TextEditingController _userNameController = TextEditingController();
+  final TextEditingController _userSurnameController = TextEditingController();
+
+  void _addUser() async {
+    final docUser = FirebaseFirestore.instance.collection('users').doc(_userEmailController.text);
+
+    var json = {
+      'email': '',
+      'password': '',
+      'name': '',
+      'surname': '',
+    };
+
+    json['email'] = _userEmailController.text;
+    json['password'] = _userPasswordController.text;
+    json['name'] = _userNameController.text;
+    json['surname'] = _userSurnameController.text;
+
+    await docUser.set(json);
+  }
+
 
   @override
   Widget build(BuildContext context) {
-    return CupertinoPageScaffold(
-        navigationBar: CupertinoNavigationBar(
-          middle: Text("Kaydol"),
-        ),
-        child: ListView(
-          children: [
-            SizedBox(height: 20),
-            CircleAvatar(
-                radius: 40,
-                backgroundColor: Colors.white,
-                child: Text("CODIZZA")),
-            SizedBox(height: 20),
+    return Scaffold(
+      backgroundColor: Colors.white,
+      appBar: AppBar(
+        title: Text("Kayıt ol"),
+        backgroundColor: Colors.redAccent,
+      ),
+      body: SingleChildScrollView(
+        child: Column(
+          children: <Widget>[
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 20.0),
-              child: Text(
-                "Uygulamayı kullanmak için lütfen üye olun",
-                textAlign: TextAlign.justify,
-                style: TextStyle(),
+              padding: const EdgeInsets.only(top: 60.0),
+              child: Center(/*
+                child: Container(
+                    width: 200,
+                    height: 150,
+                    /*decoration: BoxDecoration(
+                        color: Colors.red,
+                        borderRadius: BorderRadius.circular(50.0)),*/
+                    child: Image.asset('asset/images/flutter-logo.png')),*/
               ),
             ),
-            SizedBox(height: 20),
+            Padding(
+              padding: const EdgeInsets.only(
+                  left: 15.0, right: 15.0, top: 15, bottom: 0),
+              //padding: EdgeInsets.symmetric(horizontal: 15),
+              child: TextField(
+
+                decoration: InputDecoration(
+                    border: OutlineInputBorder(),
+                    labelText: 'Ad',
+                    hintText: 'İsminizi giriniz'),
+                controller: _userNameController,
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.only(
+                  left: 15.0, right: 15.0, top: 15, bottom: 0),
+              //padding: EdgeInsets.symmetric(horizontal: 15),
+              child: TextField(
+
+                decoration: InputDecoration(
+                    border: OutlineInputBorder(),
+                    labelText: 'Soyad',
+                    hintText: 'Soyisminizi giriniz'),
+                controller: _userSurnameController,
+              ),
+            ),
+            Padding(
+              //padding: const EdgeInsets.only(left:15.0,right: 15.0,top:0,bottom: 0),
+              padding: const EdgeInsets.only(
+                  left: 15.0, right: 15.0, top: 15, bottom: 0),
+              child: TextField(
+                decoration: InputDecoration(
+                    border: OutlineInputBorder(),
+                    labelText: 'Email',
+                    hintText: 'Geçerli bir mail adresi giriniz'),
+                controller: _userEmailController,
+              ),
+
+            ),
+            Padding(
+              padding: const EdgeInsets.only(
+                  left: 15.0, right: 15.0, top: 15, bottom: 0),
+              //padding: EdgeInsets.symmetric(horizontal: 15),
+              child: TextField(
+
+                obscureText: true,
+                decoration: InputDecoration(
+                    border: OutlineInputBorder(),
+                    labelText: 'Password',
+                    hintText: 'Şifrenizi oluşturunuz'),
+                controller: _userPasswordController,
+              ),
+            ),
+            SizedBox(
+              height: 50,
+            ),
             Container(
+              height: 50,
+              width: 250,
               decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.all(Radius.circular(15))),
-              margin: EdgeInsets.symmetric(horizontal: 10),
-              width: MediaQuery.of(context).size.width,
-              child: Padding(
-                padding: const EdgeInsets.all(20.0),
-                child: Column(
-                  children: [
-                    CupertinoTextField(
-                      style: TextStyle(color: Colors.black),
-                      controller: _txtKullanici,
-                      keyboardType: TextInputType.emailAddress,
-                      placeholderStyle: TextStyle(color: Colors.grey),
-                      placeholder: "Kullanıcı Adı",
-                      padding: EdgeInsets.all(10),
-                      decoration: BoxDecoration(
-                        color: Colors.grey.shade200,
-                        borderRadius: BorderRadius.circular(15),
-                      ),
-                      suffix: SizedBox(
-                        height: 60,
-                      ),
-                      prefix: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Icon(
-                            Icons.person,
-                            color: Colors.grey,
-                            size: 30,
-                          )),
-                    ),
-                    SizedBox(
-                      height: 20,
-                    ),
-                    CupertinoTextField(
-                      style: TextStyle(color: Colors.black),
-                      controller: _txtSifre,
-                      obscureText: gorunmezSifre,
-                      placeholderStyle: TextStyle(color: Colors.grey),
-                      placeholder: "Şifre",
-                      padding: EdgeInsets.all(10),
-                      decoration: BoxDecoration(
-                        color: Colors.grey.shade200,
-                        borderRadius: BorderRadius.circular(15),
-                      ),
-                      suffix: CupertinoButton(
-                          child: Icon(
-                            gorunmezSifre
-                                ? Icons.visibility
-                                : Icons.visibility_off,
-                            color: Colors.grey,
-                            size: 30,
-                          ),
-                          onPressed: () {
-                            setState(() {
-                              gorunmezSifre = !gorunmezSifre;
-                            });
-                          }),
-                      prefix: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Icon(
-                            Icons.password,
-                            color: Colors.grey,
-                            size: 30,
-                          )),
-                    ),
-                    SizedBox(
-                      height: 20,
-                    ),
-                    CupertinoTextField(
-                      style: TextStyle(color: Colors.black),
-                      controller: _txtSifre2,
-                      obscureText: gorunmezSifre,
-                      placeholderStyle: TextStyle(color: Colors.grey),
-                      placeholder: "Şifre doğrula",
-                      padding: EdgeInsets.all(10),
-                      decoration: BoxDecoration(
-                        color: Colors.grey.shade200,
-                        borderRadius: BorderRadius.circular(15),
-                      ),
-                      suffix: CupertinoButton(
-                          child: Icon(
-                            gorunmezSifre
-                                ? Icons.visibility
-                                : Icons.visibility_off,
-                            color: Colors.grey,
-                            size: 30,
-                          ),
-                          onPressed: () {
-                            setState(() {
-                              gorunmezSifre = !gorunmezSifre;
-                            });
-                          }),
-                      prefix: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Icon(
-                            Icons.password,
-                            color: Colors.grey,
-                            size: 30,
-                          )),
-                    ),
-                    SizedBox(
-                      height: 10,
-                    ),
-                    CupertinoButton.filled(
-                        borderRadius: BorderRadius.all(Radius.circular(20)),
-                        child: Text(
-                          "Kaydol",
-                          style: TextStyle(color: Colors.white),
-                        ),
-                        onPressed: () async {
-//
-                          if (_txtKullanici.text.isNotEmpty &&
-                              _txtSifre.text == _txtSifre2.text &&
-                              _txtSifre.text.isNotEmpty) {
-                          } else {}
-//
-                        }),
-                  ],
+                  color: Colors.redAccent, borderRadius: BorderRadius.circular(20)),
+              child: FlatButton(
+                onPressed: () {
+                  Navigator.push(
+                      context, MaterialPageRoute(builder: (_) => LoginPage()));
+                  _addUser();
+                },
+                child: Text(
+                  'Kayıt ol',
+                  style: TextStyle(color: Colors.white, fontSize: 25),
                 ),
               ),
             ),
-            SizedBox(height: 10),
+            SizedBox(
+              height: 80,
+            ),
+
+            GestureDetector(
+              child: Text('Giriş yap'),
+              onTap: (){
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => LoginPage()));
+              },
+            )
           ],
-        ));
+        ),
+      ),
+    );
   }
 }
