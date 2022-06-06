@@ -126,7 +126,7 @@ Bunlarla birlikte kullanıcı yemek tercihlerini ve alerjilerini profiline girer
 - Development'a ayrılan saatler artırıldu ve ekipçe front end'e göre daha az fikir sahibi olduğumuz back end üzerine araştırmalara ağırlık verildi.
 - Veritabanıyla ilgili araştırmalara ağırlık verildi.
 - Toplantılarda hataların, aktif db bağlantısının sağlıklı şekilde nasıl yapılabileceğinin ve tasarımların üzerinden geçildi
-- Örnek veri tablosu excelde oluşturuldu([Örnek Veri](https://docs.google.com/spreadsheets/d/1AfyD19a81k6R2qbV81-ltxOvA42dlHZuC56rHH9dFvc/edit?usp=sharing)
+- Örnek veri tablosu excelde oluşturuldu([Örnek Veri](https://docs.google.com/spreadsheets/d/1AfyD19a81k6R2qbV81-ltxOvA42dlHZuC56rHH9dFvc/edit?usp=sharing))
 
 
 
